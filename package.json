@@ -1,0 +1,35 @@
+{
+    "name": "tea-router",
+    "version": "1.0.1",
+    "description": "koa rest router",
+    "main": "index.js",
+    "scripts": {
+        "test": "istanbul cover ./node_modules/mocha/bin/_mocha ./test/*.js -- -R spec",
+        "lint": "eslint lib/*.js index.js test/*.js"
+    },
+    "keywords": [
+        "rest",
+        "koa",
+        "router",
+        "koa-rest"
+    ],
+    "author": "baiyu",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/tea-node/tea-router/issues"
+    },
+    "homepage": "https://github.com/tea-node/tea-router",
+    "dependencies": {
+        "func-delegate": "^0.3.1",
+        "koa": "^2.6.2",
+        "koa-router": "^7.4.0",
+        "lodash": "^4.17.11"
+    },
+    "devDependencies": {
+        "eslint": "^4.19.1",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.14.0",
+        "istanbul": "^1.0.0-alpha.2",
+        "mocha": "^5.2.0"
+    }
+}
