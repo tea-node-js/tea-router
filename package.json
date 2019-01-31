@@ -16,9 +16,9 @@
     "author": "baiyu",
     "license": "MIT",
     "bugs": {
-        "url": "https://github.com/tea-node/tea-router/issues"
+        "url": "https://github.com/tea-node-js/tea-router/issues"
     },
-    "homepage": "https://github.com/tea-node/tea-router",
+    "homepage": "https://github.com/tea-node-js/tea-router",
     "dependencies": {
         "func-delegate": "^0.3.1",
         "koa": "^2.6.2",
