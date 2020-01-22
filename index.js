@@ -1,4 +1,4 @@
-const delegate = require('func-delegate');
+const validator = require('func-args-validator');
 const Koa = require('koa');
 const _ = require('lodash');
 const Router = require('./lib/router');
@@ -28,7 +28,7 @@ const controllerChecker = (ctl, type, names) => {
   });
 };
 
-module.exports = delegate(Router, [{
+module.exports = validator(Router, [{
   name: 'server',
   type: Koa,
   message: 'Argument `server` must be new Koa()',
