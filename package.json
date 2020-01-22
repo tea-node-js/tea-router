@@ -1,6 +1,6 @@
 {
   "name": "tea-router",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "koa rest router",
   "main": "index.js",
   "scripts": {
