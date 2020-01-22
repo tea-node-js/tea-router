@@ -1,6 +1,6 @@
 {
   "name": "tea-router",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "koa rest router",
   "main": "index.js",
   "scripts": {
@@ -20,7 +20,7 @@
   },
   "homepage": "https://github.com/tea-node-js/tea-router",
   "dependencies": {
-    "func-args-validator": "^0.1.0",
+    "func-args-validator": "^0.1.1",
     "koa": "^2.6.2",
     "koa-router": "^7.4.0",
     "lodash": "^4.17.11"
